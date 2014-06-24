@@ -1,0 +1,22 @@
+<div class="resources container100" id="resources">
+  <div class="jumbotron">
+    <h2>Resources</h2>
+    <p id="resources-explanation">
+      <em>This is a forever growing list of resources I have used that I found helpful or glanced at and would like to get back to at some point in the future. Basically, this section is entirely self-serving but I am sure someone else will find it useful some day themself.</em>
+    </p>
+    <div class="jumbotron-content">
+      <% @bookmarks.each do |category| %>
+        <div class="category">
+          <h3 class="category-title"><%= category.first.language.name %></h3>
+          <% category.each do |b| %>
+            <div class="resource">
+              <h4><a href="<%= b.url %>"><%= b.name %></a></h4>
+              <p class="resource-description"><%=raw b.description %></p>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+    <%= render 'top_button' %>
+  </div>
+</div>

@@ -1,0 +1,58 @@
+/* orange e27a3f, rgb226 122 63
+  red DF4949, rgb 69 178 157
+  yellow EFC94C
+  light blue 45B29D
+  dark blue 334D5C
+*/
+
+
+* { padding: 0; margin: 0;}
+
+div { display: block; }
+
+html, body { height: 100%; }
+
+html { font-size: 16px; }
+body { font-size: 62.5%; position: relative }
+.grid { height: 100%; width:; 100%; position: relative;}
+
+p {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.2em;
+  color: #334D5C;
+}
+
+.brandon-closson p {
+  font-size: 1.4em;
+}
+
+.jumbotron p {
+  font-size: 1.4em;
+}
+
+h1 {
+  font-family: 'Signika', 'Helvetica', sans-serif;
+  font-size: 3.6em;
+  color: #EFC94C;
+  text-shadow: 2px 3px 3px black;
+}
+
+h2 {
+  font-family: 'Signika', 'Helvetica', sans-serif;
+  font-size: 3.2em;
+  color: #334D5C;
+  text-shadow: 1px 1px 1px #333;
+}
+
+h3 {
+  font-size: 2.0em;
+  font-family: 'Signika', 'Helvetica', sans-serif;
+  color: #DF4949;
+  text-shadow: 0.5px 0.5px 0.5px #333;
+}
+
+h4 {
+  font-size: 1.6em;
+  font-family: 'Signika', 'Helvetica', sans-serif;
+  color: #334D5C;
+}

@@ -1,0 +1,28 @@
+.projects h6 {
+  color: #E27835;
+}
+
+.projects a {
+  color: #E27835;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.projects .jumbotron {
+  background-color: rgba(239, 201, 76, 0.4);
+  border-color: rgba(239, 201, 76, 1);
+}
+
+.jumbotron-content .project {
+  padding-left: 3em;
+}
+
+.projects .category {
+  background-color: rgba(239, 201, 76, 0.2);
+  border: solid 1px rgba(239, 201, 76, 0.5);
+  margin: 2em 1em;
+  padding: 5% 9%;
+}
+
+.projects .category .category-title {
+  padding-bottom: 2%;
+}

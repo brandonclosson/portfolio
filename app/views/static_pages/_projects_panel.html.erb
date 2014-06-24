@@ -1,0 +1,19 @@
+<div class="projects container100" id="projects">
+  <div class="jumbotron">
+    <h2>Projects</h2>
+    <div class="jumbotron-content">
+      <% @projects.each do |category| %>
+        <div class="category">
+          <h3 class="category-title"><%= category.first.language.name %></h3>
+          <% category.each do |p| %>
+            <div class="project project-<%= p.id %>">
+              <h4><%= p.name %></h4>
+              <p><%=raw p.description %> | <a href="<%= p.github_link %>" title=" Github Link">Github</a></p>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+    <%= render 'top_button' %>
+  </div>
+</div>

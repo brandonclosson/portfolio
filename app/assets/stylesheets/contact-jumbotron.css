@@ -1,0 +1,37 @@
+.contact .jumbotron {
+  background-color: rgba(226, 122, 63, 0.4);
+  border-color: rgba(226, 122, 63, 1);
+}
+
+.contact .jumbotron .contact-content {
+  background-color: rgba(226, 122, 63, 0.2);
+  border: solid 1px rgba(226, 122, 63, 0.5);
+  margin: 2em 1em;
+  padding: 5% 9%;
+}
+
+.contact .jumbotron .contact-content h3 {
+  padding: 2% 1%;
+  color: #DF4949;
+  margin-top: 0;
+}
+
+.contact .jumbotron .contact-content i {
+  padding-left: 2%;
+}
+
+.contact .jumbotron .contact-content a {
+  padding-left: 2%;
+}
+
+.contact .jumbotron .contact-content .top-button {
+  color: #DF4949;
+}
+
+
+
+.contact .jumbotron .contact-content h3 a {
+  color: #334D5C;
+}
+
+.contact .jumbotron .contact-content

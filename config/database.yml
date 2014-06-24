@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: portfolio_development
+
+test:
+  adapter: postgresql
+  database: portfolio_test
