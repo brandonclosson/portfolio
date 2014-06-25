@@ -7,7 +7,7 @@ general = Language.create(name: "General / All Languages", id: 6)
 
 projects = Project.create([
   { name: "Betastore", in_progress: false,
-    description: "E-commerce app written during back-end web course at Betamore. Because it was a back-end course, we did not spend a lot of time on design and instead used bootstrap. We used PostgreSQL as our database, Braintree for processing payments, and Sidekiq for performing background jobs. ",
+    description: "E-commerce app written during back-end web course at Betamore. We used PostgreSQL as our database, Bootstrap for the layout, Braintree for processing payments, and Sidekiq for performing background jobs. ",
     url: "http://brandonbetastore.herokuapp.com",
     github_link: "http://github.com/brandonclosson/betastore",
     language: ruby_on_rails
@@ -19,7 +19,7 @@ projects = Project.create([
     language: ruby_on_rails
   },
   { name: "Angular Store", in_progress: false,
-    description: "A very tiny Angular app based on <a href=\"https://www.codeschool.com/courses/shaping-up-with-angular-js\">Code School's course</a> on building a responsive store selling expensive gems and stones using Angular. My store has a different but equally superfluous theme.",
+    description: "A very tiny Angular app based on <a href=\"https://www.codeschool.com/courses/shaping-up-with-angular-js\">Code School's course</a> on building a responsive store selling expensive gems and stones using Angular. My store has a different but equally superfluous theme. The course gives a basic overview of Angular modules, controllers and directives.",
     github_link: "http://github.com/brandonclosson/mini-angular-store",
     language: angular
   },

@@ -7,7 +7,13 @@
           <h3 class="category-title"><%= category.first.language.name %></h3>
           <% category.each do |p| %>
             <div class="project project-<%= p.id %>">
-              <h4><%= p.name %></h4>
+               <% if !p.url.nil? %>
+                <a href="<% p.url %>" class="linked-project">
+              <% end %>
+                <h4><%= p.name %></h4>
+              <% if !p.url.nil? %>
+                </a>
+              <% end %>
               <p><%=raw p.description %> | <a href="<%= p.github_link %>" title=" Github Link">Github</a></p>
             </div>
           <% end %>
