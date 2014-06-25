@@ -1,4 +1,4 @@
-ruby_on_rails = Language.create(name: "Ruby on Rails", id: = 1)
+ruby_on_rails = Language.create(name: "Ruby on Rails", id: 1)
 angular = Language.create(name: "Angular.js", id: 2)
 ruby = Language.create(name: "Ruby", id: 3)
 javascript = Language.create(name: "Javascript", id: 4)
