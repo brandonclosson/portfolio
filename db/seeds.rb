@@ -1,9 +1,9 @@
-ruby_on_rails = Language.create(name: "Ruby on Rails")
-angular = Language.create(name: "Angular.js")
-ruby = Language.create(name: "Ruby")
-javascript = Language.create(name: "Javascript")
-jQuery = Language.create(name: "jQuery")
-general = Language.create(name: "General / All Languages")
+ruby_on_rails = Language.create(name: "Ruby on Rails", id: = 1)
+angular = Language.create(name: "Angular.js", id: 2)
+ruby = Language.create(name: "Ruby", id: 3)
+javascript = Language.create(name: "Javascript", id: 4)
+jQuery = Language.create(name: "jQuery", id: 5)
+general = Language.create(name: "General / All Languages", id: 6)
 
 projects = Project.create([
   { name: "Betastore", in_progress: false,

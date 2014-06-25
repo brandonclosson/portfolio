@@ -12,6 +12,7 @@
  *
  *= require_self
  *= require foundation-icons/foundation-icons.css
- *= require bootstrap
+ *= require normalize.css
+ *= require custom.css.scss
  *= require_tree .
  */

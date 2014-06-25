@@ -1,0 +1,56 @@
+@import 'colors_and_fonts';
+
+* { padding: 0; margin: 0; @include box-sizing(border-box);}
+
+div { display: block; }
+
+html, body { height: 100%; }
+html { font-size: 16px; }
+body { font-size: 62.5%; position: relative }
+.grid { height: 100%; width: 100%; position: relative;}
+
+p {
+  font-family: $font-serif;
+  font-size: 1.2em;
+  color: $dark_blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: $font-sans-serif;
+  font-size: 3.6em;
+  text-shadow: 2px 3px 3px black;
+}
+
+h2 {
+  font-family: $font-sans-serif;
+  font-size: 3.2em;
+  color: $dark_blue;
+  text-shadow: 1px 1px 1px #333;
+}
+
+h3 {
+  font-size: 2.0em;
+  font-family: $font-sans-serif;
+  color: $red;
+  text-shadow: 0.5px 0.5px 0.5px #333;
+}
+
+h4 {
+  font-size: 1.6em;
+  font-family: $font-sans-serif;
+  color: $dark_blue;
+}
+
+.container100  {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.nowrap {
+  white-space: nowrap;
+}

@@ -1,0 +1,55 @@
+.resources .jumbotron {
+  background-color: rgba(223, 73, 73, 0.4);
+  border-color: rgba(223, 73, 73, 1);
+  display: table;
+  .resources .jumbotron-content {
+    padding: 0;
+    margin: 0;
+  }
+  #resources-explanation {
+    width: 100%;
+    padding: 4% 7%;
+    padding-left: 7%;
+  }
+  .category {
+    background-color: rgba(223, 73, 73, 0.2);
+    border: solid 1px rgba(223, 73, 73, 0.5);
+    display: block;
+    width: 80%;
+    padding: 5% 7%;
+    margin: 1% 0 0 10%;
+    .category-title {
+      margin: 0;
+      padding: 0;
+    }
+    .resource {
+      padding-left: 3%;
+      h4 {
+        font-size: 1.5em;
+      }
+      a {
+        color: #EFC94C;
+        text-shadow: 1px 1px 1px #333;
+      }
+      .resource-description {
+        font-size: 1em;
+      }
+    }
+  }
+  h6 {
+    width: 100%;
+  }
+  h6 a.top-button {
+    float: right;
+    margin-top: 1%;
+    margin-right: 10%;
+    color: #EFC94C;
+    text-shadow: 1px 1px 1px #333;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.jumbotron {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10em 12%;
+  font-size: 1.4em;
+  line-height: 1.5;
+  overflow-y: auto;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 0;
+
+  h3 {
+    padding-top: 5%;
+    font-size: 2.4em;
+  }
+
+  h4 {
+    font-size: 1.8em;
+  }
+
+  h6 {
+    font-size: 2em;
+    float: right;
+  }
+
+  .jumbotron-content {
+    padding-left: 1.4em;
+  }
+
+  .top-button {
+    font-size: 0.8em;
+  }
+}
+

@@ -1,0 +1,20 @@
+$font-sans-serif: 'Signika', 'Helvetica', sans-serif;
+$font-serif: 'Source Serif Pro', serif;
+$orange: #E27A3F;
+$red: #DF4949;
+$yellow: #EFC94C;
+$light_blue: #45B29D;
+$dark_blue: #334D5C;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-sizing($type) {
+  -webkit-box-sizing: $type;
+     -moz-box-sizing: $type;
+      -ms-box-sizing: $type;
+}

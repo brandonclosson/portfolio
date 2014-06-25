@@ -1,0 +1,51 @@
+@import 'colors_and_fonts';
+
+.brandon-closson  {
+  .jumbotron {
+    height: auto;
+    padding: 11% 14%;
+    background-color: rgba(69, 178, 157, 0.4);
+    border-color: rgba(69, 178, 157, 1);
+    p {
+      margin-top: 2%;
+    }
+    strong {
+      font-size: 1.3em;
+      color: #DF4949;
+    }
+    a.resources-link {
+      background-color: rgba(223, 73, 73, 0.333);
+      strong {
+        color: $red;
+        border-color: $red;
+      }
+    }
+    a.contact-link {
+      background-color: rgba(226, 122, 63, 0.333);
+      strong {
+        color: $orange;
+        border-color: $orange;
+      }
+    }
+    a.projects-link {
+      background-color: rgba(239, 201, 76, 0.5);
+      strong {
+        color: $yellow;
+        border-color: $yellow;
+      }
+    }
+    a.shadowed {
+      padding: 0.4%;
+      text-decoration: none;
+      strong {
+        text-shadow: 1px 1px 1px #444;
+        border-bottom-style: dashed;
+        border-bottom-width: 1px;
+      }
+      strong:hover {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+      }
+    }
+  }
+}

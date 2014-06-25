@@ -1,0 +1,29 @@
+.contact .jumbotron {
+  background-color: rgba(226, 122, 63, 0.4);
+  border-color: rgba(226, 122, 63, 1);
+  .contact-content {
+    background-color: rgba(226, 122, 63, 0.2);
+    border: solid 1px rgba(226, 122, 63, 0.5);
+    margin: 2em 1em;
+    padding: 5% 9%;
+    h3 {
+      padding: 2% 1%;
+      color: #DF4949;
+      margin-top: 0;
+      font-size: 1.8em;
+    }
+    i {
+      padding-left: 2%;
+    }
+    a {
+      padding-left: 2%;
+    }
+    .top-button {
+      color: #DF4949;
+    }
+  }
+  a {
+    color: #334D5C;
+  }
+}
+
